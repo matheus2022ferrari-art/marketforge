@@ -6522,8 +6522,6 @@ body {
 
 .text-block-11 {
   color: #fff;
-  width: 250px;
-  margin-right: 20px;
   font-size: 18px;
   text-decoration: none;
 }
@@ -6617,7 +6615,7 @@ body {
 }
 
 .bold-text-3 {
-  color: #fff;
+  color: #333;
 }
 
 .paragraph-6 {
@@ -6722,7 +6720,7 @@ body {
 
 .bold-text-6 {
   color: #fff;
-  margin-right: 40px;
+  margin-right: 30px;
   text-decoration: none;
 }
 
@@ -6756,14 +6754,10 @@ body {
 }
 
 .div-block-13:hover {
-  background-color: #00d9ff;
+  background-color: #4fe5ff;
 }
 
-.image-7 {
-  height: 35px;
-}
-
-.image-7:hover, .image-7:focus-visible, .image-7[data-wf-focus-visible] {
+.image-7, .image-7:hover, .image-7:focus-visible, .image-7[data-wf-focus-visible] {
   height: 25px;
 }
 
@@ -7640,7 +7634,7 @@ body {
 }
 
 .div-block-38:hover {
-  background-color: #00d9ff;
+  background-color: #4fe5ff;
 }
 
 .paragraph-23 {
@@ -7700,8 +7694,6 @@ body {
 
 .text-block-23 {
   color: #fff;
-  width: 250px;
-  margin-right: 20px;
   font-size: 18px;
   text-decoration: none;
 }
@@ -7963,7 +7955,6 @@ body {
 }
 
 .link-block-15 {
-  color: #fff;
   margin-left: 100px;
 }
 
@@ -8446,7 +8437,6 @@ body {
 
 .background-video-2 {
   z-index: 3;
-  border-radius: 20px;
   width: 1000px;
   height: 570px;
   position: relative;
@@ -8644,7 +8634,7 @@ body {
 }
 
 .div-block-74:hover {
-  background-color: #00e1ff;
+  background-color: #4fe5ff;
 }
 
 .paragraph-34 {
@@ -8813,10 +8803,6 @@ body {
 
 .bold-text-20, .bold-text-21 {
   color: #fff;
-}
-
-.body-2, .columns-9 {
-  background-color: #121212;
 }
 
 @media screen and (max-width: 991px) {
@@ -10631,3 +10617,75 @@ body {
 .checkbox-hidden:checked + .checkbox-label{color:#fff;background:#000;border-color:#000;box-shadow:0 0 30px rgba(0,0,0,.65)}
 .checkbox-field:hover .checkbox-label{background:rgba(0,0,0,.06)}
 .checkbox-hidden:focus-visible + .checkbox-label{outline:2px solid #00526d;outline-offset:3px}
+
+
+/* ===== AJUSTES EXCLUSIVOS DA PÁGINA DE ORÇAMENTO ===== */
+
+/* Fundo da página */
+.budget-page,
+.budget-page > .w-row,
+.budget-page > .w-row > .w-col {
+  background-color: #121212 !important;
+}
+
+/* Remove qualquer fundo padrão do componente de navegação nessa página */
+.budget-page .navbar-logo-center-container-2,
+.budget-page .w-nav {
+  background-color: transparent !important;
+}
+
+/* Logo e identificação da agência */
+.budget-page .image-12,
+.budget-page .image-28,
+.budget-page .text-block-30 {
+  opacity: 1 !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+}
+
+.budget-page .text-block-30 {
+  color: #fff !important;
+}
+
+/* Checkboxes: estado normal */
+.budget-page .checkbox-label {
+  color: #fff !important;
+  border-color: #fff !important;
+  background: transparent !important;
+}
+
+/* Checkboxes: hover */
+.budget-page .checkbox-field:hover .checkbox-label {
+  color: #fff !important;
+  border-color: #fff !important;
+  background: rgba(255,255,255,.06) !important;
+}
+
+/* Checkboxes: selecionado — preserva o comportamento existente */
+.budget-page .checkbox-hidden:checked + .checkbox-label {
+  color: #fff !important;
+  background: #000 !important;
+  border-color: #000 !important;
+  box-shadow: 0 0 30px rgba(0,0,0,.65) !important;
+}
+
+/* Campos de texto, textarea e selects */
+.budget-page .w-input,
+.budget-page .w-select {
+  color: #fff !important;
+  background-color: #121212 !important;
+  border-color: #fff !important;
+}
+
+/* Placeholder dos campos */
+.budget-page .w-input::placeholder,
+.budget-page textarea::placeholder {
+  color: rgba(255,255,255,.65) !important;
+  opacity: 1 !important;
+}
+
+/* Opções dos selects */
+.budget-page .w-select option {
+  color: #fff;
+  background-color: #121212;
+}

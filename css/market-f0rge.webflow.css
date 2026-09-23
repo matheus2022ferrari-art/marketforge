@@ -10689,3 +10689,11 @@ body {
   color: #fff;
   background-color: #121212;
 }
+
+/* Fundo estrutural da página de orçamento */
+.budget-page-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #121212 !important;
+  box-sizing: border-box;
+}

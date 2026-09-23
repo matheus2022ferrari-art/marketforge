@@ -10631,3 +10631,9 @@ body {
 .checkbox-hidden:checked + .checkbox-label{color:#fff;background:#000;border-color:#000;box-shadow:0 0 30px rgba(0,0,0,.65)}
 .checkbox-field:hover .checkbox-label{background:rgba(0,0,0,.06)}
 .checkbox-hidden:focus-visible + .checkbox-label{outline:2px solid #00526d;outline-offset:3px}
+
+/* Fundo exclusivo da página de orçamento */
+.budget-page {
+  background-color: #121212 !important;
+  min-height: 100vh;
+}

@@ -6522,6 +6522,8 @@ body {
 
 .text-block-11 {
   color: #fff;
+  width: 250px;
+  margin-right: 20px;
   font-size: 18px;
   text-decoration: none;
 }
@@ -6615,7 +6617,7 @@ body {
 }
 
 .bold-text-3 {
-  color: #333;
+  color: #fff;
 }
 
 .paragraph-6 {
@@ -6720,7 +6722,7 @@ body {
 
 .bold-text-6 {
   color: #fff;
-  margin-right: 30px;
+  margin-right: 40px;
   text-decoration: none;
 }
 
@@ -6754,11 +6756,15 @@ body {
 }
 
 .div-block-13:hover {
-  background-color: #4fe5ff;
+  background-color: #00d9ff;
 }
 
-.image-7, .image-7:hover, .image-7:focus-visible, .image-7[data-wf-focus-visible] {
-  height: 25px;
+.image-7 {
+  height: 35px;
+}
+
+.image-7:hover, .image-7:focus-visible, .image-7[data-wf-focus-visible] {
+  height: 35px;
 }
 
 .div-block-14 {
@@ -7634,7 +7640,7 @@ body {
 }
 
 .div-block-38:hover {
-  background-color: #4fe5ff;
+  background-color: #00d9ff;
 }
 
 .paragraph-23 {
@@ -7694,6 +7700,8 @@ body {
 
 .text-block-23 {
   color: #fff;
+  width: 250px;
+  margin-right: 20px;
   font-size: 18px;
   text-decoration: none;
 }
@@ -7955,6 +7963,7 @@ body {
 }
 
 .link-block-15 {
+  color: #fff;
   margin-left: 100px;
 }
 
@@ -8437,6 +8446,7 @@ body {
 
 .background-video-2 {
   z-index: 3;
+  border-radius: 20px;
   width: 1000px;
   height: 570px;
   position: relative;
@@ -8634,7 +8644,7 @@ body {
 }
 
 .div-block-74:hover {
-  background-color: #4fe5ff;
+  background-color: #00e1ff;
 }
 
 .paragraph-34 {

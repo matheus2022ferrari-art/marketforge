@@ -10690,10 +10690,21 @@ body {
   background-color: #121212;
 }
 
-/* Fundo estrutural da página de orçamento */
+
+
+/* Fundo fixo da página de orçamento — fica atrás de todo o conteúdo */
+.budget-background {
+  position: fixed !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #121212 !important;
+  z-index: 0 !important;
+  pointer-events: none !important;
+}
+
 .budget-page-wrapper {
-  width: 100%;
-  min-height: 100vh;
-  background-color: #121212 !important;
-  box-sizing: border-box;
+  position: relative !important;
+  z-index: 1 !important;
+  background: transparent !important;
 }
